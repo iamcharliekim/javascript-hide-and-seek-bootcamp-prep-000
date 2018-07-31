@@ -20,6 +20,6 @@ function deepestChild(){
   var nextChild = output.children[0];
   while (nextChild){
     output = nextChild;
-    nextChild = output.children[0];
+    nextChild = nextChild.children[0];
   }
 }
