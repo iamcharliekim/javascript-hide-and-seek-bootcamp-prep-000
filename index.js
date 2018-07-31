@@ -8,3 +8,6 @@ function nestedTarget(){
   return output;
 }
 
+function increaseRankBy(n){
+  
+}
